@@ -4,12 +4,12 @@ color 02
 
 set hora=%time:~0,5%
 set titleD=%date:/=-%
+title %titleD% - %hora%
 set /p nome=DIGITE SEU NOME: 
 set /p sobrenome=DIGITE SEU SOBRENOME: 
 set /p idade=DIGITE SUA IDADE: 
 set /p genero=DIGITE SEU GENERO: 
 
-title %titleD% - %hora%
 pause >nul
 cls
 
